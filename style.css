@@ -1,7 +1,48 @@
+
+.header {
+  font-size: 38px;
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.menu-buttons {
+  float: right;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  display: table;
+}
+
+.navbar {
+  border: 1px solid black;
+  height: 60px;
+  padding: 3% 3%;
+  display: table;
+  width: 100%;
+  background-color: #4A4E69;
+  color: #F2E9E4;
+  box-sizing: border-box;
+  margin-bottom: 10%
+}
+
+.menu-link {
+  text-align: center;
+  height: 100%;
+  width: 150px;
+  font-size: 26px;
+  padding-top: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  color: #F2E9E4;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],input[type=email], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
+    padding: 12px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -11,7 +52,7 @@ input[type=text],input[type=email], select, textarea {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+
   /* Style the submit button with a specific background color etc */
   button {
     background-color: rgb(92, 160, 94);
@@ -20,14 +61,14 @@ input[type=text],input[type=email], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    
+
   }
-  
+
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+
   /* Add a background color and some padding around the form */
   .contact-form {
     border-radius: 5px;
@@ -40,8 +81,7 @@ input[type=text],input[type=email], select, textarea {
   label{
       font-size: 20px;
   }
-  
+
   .btn{
       text-align: center;
   }
-
