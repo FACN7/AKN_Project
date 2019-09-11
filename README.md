@@ -1,7 +1,7 @@
 # AKN_Project
 ## Ariel, Karem and Natalia first project
 
-[OUR SITE:](https://facn7.github.io/AKN_Project/)
+[>>> Our Awesome Website <<<](https://facn7.github.io/AKN_Project/)
 
 ### why?
 We were tasked to create a simple single page website about our team.
