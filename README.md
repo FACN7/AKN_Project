@@ -5,6 +5,7 @@
 We were tasked to create a simple single page website about our team.
 We need this practice in order to enrich our knowledge in web development in its basic concepts.
 And ofcourse because we are the **best team!** 
+
 ![](https://media.giphy.com/media/kIRSvV2IKk0UN0Rb8l/giphy.gif)
 
 ### what?
@@ -29,4 +30,5 @@ our mentors we managed to resolve them.
  2. Take a nicer photos of ourselves ;)
  3. Create a professional logo.
  4. Create a DB so users can actually contact us and send us messages.
- 
+ 5. Make the navbar fixed at the yop of the screen.
+ 6. 
