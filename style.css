@@ -1,6 +1,6 @@
 
 .header {
-  font-size: 38px;
+  font-size: 36px;
   display: table-cell;
   vertical-align: middle;
   text-transform: uppercase;
@@ -23,15 +23,17 @@
   background-color: #4A4E69;
   color: #F2E9E4;
   box-sizing: border-box;
-  margin-bottom: 10%
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu-link {
   text-align: center;
   height: 100%;
   width: 150px;
-  font-size: 26px;
-  padding-top: 10px;
+  font-size: 24px;
   display: table-cell;
   vertical-align: middle;
   text-decoration: none;
@@ -39,6 +41,34 @@
   margin: 5px;
   color: #F2E9E4;
 }
+
+.menu-icon {
+  text-align: center;
+  height: 100%;
+  width: 50px;
+  font-size: 24px;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  color: #F2E9E4;
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .menu-icon {
+    display: inline-block;
+  }
+  .menu-link {
+    display: none;
+  }
+  .header {
+    font-size: 24px;
+  }
+}
+
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],input[type=email], select, textarea {
     width: 100%; /* Full width */
