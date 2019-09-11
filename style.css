@@ -1,4 +1,193 @@
-.personnel-solo-photo{
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.header {
+  font-size: 36px;
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.menu-buttons {
+  float: right;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  display: table;
+}
+
+.navbar {
+  height: 60px;
+  padding: 3% 3%;
+  display: table;
+  width: 100%;
+  background-color: #4A4E69;
+  color: #F2E9E4;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-link {
+  text-align: center;
+  height: 100%;
+  width: 150px;
+  font-size: 24px;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  color: #F2E9E4;
+  transition: 0.4s;
+}
+
+.menu-link:hover{
+  color: #C9ADA7;
+}
+
+.menu-icon {
+  text-align: center;
+  height: 100%;
+  width: 50px;
+  font-size: 24px;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  color: #F2E9E4;
+  display: none;
+}
+
+.main-container {
+  display: flex;
+  background-color: #F2E9E4;
+  color: #22223B;
+  padding: 20px 10px;
+}
+
+.team-photo-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#team-photo {
+  width: 90%;
+  border-radius: 20px;
+  margin: 20px 0px;
+
+}
+
+.team-description {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.team-text {
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.about-header {
+  font-size: 38px;
+}
+
+@media screen and (max-width: 700px) {
+  .menu-icon {
+    display: inline-block;
+  }
+  .menu-link {
+    display: none;
+  }
+  .header {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .team-photo {
+    width: 100%;
+  }
+  .team-description {
+    width: 100%;
+  }
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 17px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Raleway', sans-serif;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  button {
+    background-color: #4A4E69;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.4s;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+ button:hover {
+    background-color: #22223B;
+
+  }
+
+  /* Add a background color and some padding around the form */
+  .contact-form {
+    border-radius: 5px;
+    background-color: #F2E9E4;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  .contact-form h1{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  label{
+      font-size: 20px;
+  }
+
+  .btn{
+      text-align: center;
+  }
+
+
+
+  .personnel-solo-photo{
 
   border-width: 2px;
   border-radius: 50%
