@@ -15,7 +15,6 @@
 }
 
 .navbar {
-  border: 1px solid black;
   height: 60px;
   padding: 3% 3%;
   display: table;
@@ -23,7 +22,6 @@
   background-color: #4A4E69;
   color: #F2E9E4;
   box-sizing: border-box;
-  margin-bottom: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,6 +54,44 @@
   display: none;
 }
 
+.main-container {
+  display: flex;
+  background-color: #F2E9E4;
+  color: #22223B;
+}
+
+.team-photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team-photo {
+  width: 90%;
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+
+.team-description {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.team-text {
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.about-header {
+  font-size: 36px;
+}
+
 @media screen and (max-width: 700px) {
   .menu-icon {
     display: inline-block;
@@ -67,6 +103,19 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 1025px) {
+  .main-container {
+    flex-direction: column;
+  }
+  .team-photo {
+    width: 100%;
+  }
+  .team-description {
+    width: 100%;
+  }
+}
+
 
 
 /* Style inputs with type="text", select elements and textareas */
