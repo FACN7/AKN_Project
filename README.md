@@ -1,6 +1,8 @@
 # AKN_Project
 ## Ariel, Karem and Natalia first project
 
+[](https://facn7.github.io/AKN_Project/)
+
 ### why?
 We were tasked to create a simple single page website about our team.
 We need this practice in order to enrich our knowledge in web development in its basic concepts.
