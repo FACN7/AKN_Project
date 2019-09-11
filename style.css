@@ -1,4 +1,7 @@
-
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
 .header {
   font-size: 36px;
   display: table-cell;
@@ -58,6 +61,7 @@
   display: flex;
   background-color: #F2E9E4;
   color: #22223B;
+  padding: 20px 10px;
 }
 
 .team-photo {
@@ -65,6 +69,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.menu-icons {
+
 }
 
 #team-photo {
@@ -89,7 +97,7 @@
 }
 
 .about-header {
-  font-size: 36px;
+  font-size: 38px;
 }
 
 @media screen and (max-width: 700px) {
@@ -129,7 +137,8 @@ input[type=text],input[type=email], select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: none; /* Allow the user to vertically resize the textarea (not horizontally) */
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Raleway', sans-serif;
   }
 
   /* Style the submit button with a specific background color etc */
