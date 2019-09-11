@@ -160,7 +160,7 @@ input[type=text],input[type=email], select, textarea {
   /* When moving the mouse over the submit button, add a darker green color */
  button:hover {
     background-color: #22223B;
-    
+
   }
 
   /* Add a background color and some padding around the form */
@@ -184,3 +184,64 @@ input[type=text],input[type=email], select, textarea {
   .btn{
       text-align: center;
   }
+
+
+
+  .personnel-solo-photo{
+
+  border-width: 2px;
+  border-radius: 50%
+
+}
+.icons{
+width: 40px;
+
+}
+.personnel-container-wrapper{
+  width:100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20%;
+}
+
+.personnel-container{
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+.personnel-solo-name{
+margin: auto;
+width: 50%;
+
+}
+.solo-name{
+  justify-content: center;
+}
+.icon-test{
+  width: 20%;
+}
+.about-solo-container{
+  display: flex;;
+  flex-direction: row;
+
+
+}
+.personal-links{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.solo-photo{
+  border-radius: 50%;
+  width: 100%;
+
+}
+.solo-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
