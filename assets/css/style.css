@@ -20,7 +20,7 @@ body {
 }
 
 .navbar {
-  height: 60px;
+  height: 50px;
   padding: 3% 3%;
   display: table;
   width: 100%;
@@ -30,9 +30,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* overflow: hidden;
-  position: fixed;
-  top: 0; */
+  
+ 
+  
   /* Sticky navbar code */
 }
 
@@ -68,11 +68,13 @@ body {
   display: none;
 }
 
+
 .about-us-container {
   display: flex;
   background-color: #F2E9E4;
   color: #22223B;
   padding: 50px 20px;
+  justify-content: space-around;
 }
 
 .team-photo-container {
@@ -120,6 +122,10 @@ body {
   }
   .team-text {
     font-size: 22px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between  
   }
 }
 
@@ -273,9 +279,23 @@ margin: 20px;
   .about-solo-container{
     flex-direction: column;
   }
-
+ 
 }
 
 .personnel {
   padding: 50px 0px;
+}
+
+.footer {
+  padding: 20px 0px;
+  color: #F2E9E4;
+  bottom: 0;
+  width: 100%;
+  background-color: #4A4E69;
+  text-align: center;
+  font-size: 18px;
+}
+
+#github-link {
+  color: #F2E9E4;
 }
