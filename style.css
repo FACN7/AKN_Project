@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  
+  background-color: #4A4E69;
 }
+
 .header {
   font-size: 36px;
   display: table-cell;
@@ -29,6 +30,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* overflow: hidden;
+  position: fixed;
+  top: 0; */
+  /* Sticky navbar code */
 }
 
 .menu-link {
@@ -67,11 +72,10 @@ body {
   display: flex;
   background-color: #F2E9E4;
   color: #22223B;
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 .team-photo-container {
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +86,7 @@ body {
   width: 90%;
   border-radius: 20px;
   margin: 20px 0px;
-
+  box-shadow: 0px 0px 20px #4A4E69;
 }
 
 .team-description {
@@ -113,6 +117,9 @@ body {
   }
   .header {
     font-size: 24px;
+  }
+  .team-text {
+    font-size: 22px;
   }
 }
 
@@ -229,6 +236,7 @@ margin: 5px;
   display: flex;
   flex-direction: row;
   BACKGROUND-COLOR: #4A4E69;
+  padding: 20px;
 }
 
 .about-solo{
@@ -255,7 +263,7 @@ margin: 20px;
 
   width: 100%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .about-solo-container{
     flex-direction: column;
   }
