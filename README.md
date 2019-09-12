@@ -33,4 +33,4 @@ our mentors we managed to resolve them.
  3. Create a professional logo.
  4. Create a DB so users can actually contact us and send us messages.
  5. Make the navbar fixed at the yop of the screen.
- 6. 
+ 
