@@ -124,7 +124,7 @@ body {
 }
 
 @media screen and (max-width: 1025px) {
-  .main-container {
+  .about-us-container {
     flex-direction: column;
   }
   .team-photo {
