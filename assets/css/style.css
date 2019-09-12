@@ -68,11 +68,11 @@ body {
   display: none;
 }
 
-.main-container {
+.about-us-container {
   display: flex;
   background-color: #F2E9E4;
   color: #22223B;
-  padding: 20px 20px;
+  padding: 50px 20px;
 }
 
 .team-photo-container {
@@ -150,6 +150,11 @@ input[type=text],input[type=email], select, textarea {
     font-size: 17px;
     /* font-family: Arial, Helvetica, sans-serif; */
     font-family: 'Raleway', sans-serif;
+    
+  }
+
+  textarea{
+    height:200px;
   }
 
   /* Style the submit button with a specific background color etc */
@@ -269,4 +274,8 @@ margin: 20px;
     flex-direction: column;
   }
 
+}
+
+.personnel {
+  padding: 50px 0px;
 }

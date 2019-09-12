@@ -19,9 +19,9 @@
         AKN Team
       </h1>
       <span class="menu-icons">
-        <a href="#general-info" class="menu-icon"><i class="fa fa-info-circle"></i></a>
-        <a href="#personnel" class="menu-icon"><i class="fa fa-users"></i></a>
-        <a href="#contact-form" class="menu-icon"><i class="fa fa-envelope"></i></a>
+        <a href="#general-info" class="menu-icon"><i class="fa fa-info-circle" title="About Us"></i></a>
+        <a href="#personnel" class="menu-icon"><i class="fa fa-users" title="Our Team"></i></a>
+        <a href="#contact-form" class="menu-icon"><i class="fa fa-envelope" title="Contact Us"></i></a>
       </span>
       <span class="menu-buttons">
         <a href="#general-info" class="menu-link">About Us</a>
@@ -29,7 +29,7 @@
         <a href="#contact-form" class="menu-link">Contact</a>
       </span>
     </div>
-    <div id="general-info" class="main-container">
+    <div id="general-info" class="about-us-container">
       <div class="team-photo-container">
         <img src="https://i.ibb.co/k2h376J/Whats-App-Image-2019-09-11-at-14-36-57.jpg" alt="" id="team-photo">
       </div>
@@ -39,6 +39,8 @@
         </h1>
         <div class="team-text">
           AKN is the best develpment team in the entire planet. The name means A-Ariel, K-Karem and N-Natalia.
+          If you will hire us you will not regret - We are creating the best web pages ever and we will take
+          your business to the next level.
         </div>
       </div>
     </div>
@@ -52,10 +54,10 @@
                 <img class="solo-photo" src="https://i.ibb.co/2vzwsL1/Whats-App-Image-2019-09-11-at-16.png">
                 <!--TODO: add pictures -->
               </div>
-              <div class="solo-name">Karem O
+              <div class="solo-name">Karem Omary
               </div>
               <div class="personal-links">
-                <div class="icon-test" id="karems linkedin"><a href="https://okarem.github.io/hostedokarem/">
+                <div class="icon-test" id="karems linkedin"><a href="#">
                     <img src="./assets/images/linkedin-rect.svg" alt="linkedin">
                   </a></div>
                 <div class="icon-test" id="karems codewars"><a href="https://www.codewars.com/users/okarem">
@@ -74,7 +76,7 @@
                 <img class="solo-photo" src="https://s.gravatar.com/avatar/ab01dee3f78332e94d4a0ab86af5e785?s=640">
                 <!--TODO: add pictures -->
               </div>
-              <div class="solo-name">Natalia P
+              <div class="solo-name">Natalia Filippova
               </div>
               <div class="personal-links">
                 <div class="icon-test" id="natalia linkedin"><a href="#">
@@ -96,7 +98,7 @@
                 <img class="solo-photo" src="https://i.ibb.co/cXygyGQ/Whats-App-Image-2019-09-11-at-16-40-44.jpg">
                 <!--TODO: add pictures -->
               </div>
-              <div class="solo-name">Areil I
+              <div class="solo-name">Ariel Elbahar
               </div>
               <div class="personal-links">
                 <div class="icon-test" id="areils linkedin">
@@ -118,17 +120,18 @@
       <form action="">
         <h1>Contact Us</h1>
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 
         <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
 
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Your Email..">
+        <input type="email" id="email" name="email" pattern="^[A-Za-z]{1}[A-Za-z\d\._]+@([A-Za-z]{3,})\.([a-zA-Z]{2,})$"
+          placeholder="Your Email.." required>
 
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
         <div class="btn">
 
           <button type="submit" value="Submit">Submit</button>
